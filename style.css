@@ -237,7 +237,7 @@ nav a:hover {
 .hero-info {
     display: flex;
     gap: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
 
@@ -279,3 +279,44 @@ nav a:hover {
 .feature:hover {
     transform: translateY(-10px);
 }
+
+.feature h3 {
+    margin: 20px 0;
+    color: var(--vinho);
+    font-size: 28px;
+}
+
+feature p {
+    color: #666;
+}
+
+/* CARDÁPIO */
+
+.menu {
+    padding: 120px 0;
+    background: var(--creme);
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,manmax(330px,1fr));
+    gap: 35px;
+}
+
+.product {
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: .5s;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+}
+
+.product:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 60px rgba(0,0,0,.18);
+}
+
+.product-imagem {
+    overflow: hidden;
+}
+
